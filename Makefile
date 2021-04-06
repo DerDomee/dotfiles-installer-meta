@@ -5,7 +5,7 @@ all:
 	git --git-dir=$$HOME/git/dotfiles-linux/ --work-tree=$$HOME reset --hard
 
 install: 
-	echo "Installing global files is handled from within the installed package. No 'sudo make install' needed here."
+	@echo "Installing global files is handled from within the installed package. No 'sudo make install' needed here."
 
 clean:
-	echo "No files need to be cleaned up."
+	@echo "No files need to be cleaned up."
