@@ -1,7 +1,7 @@
 .PHONY = all, install, clean
 
 all:
-	git --git-dir=$$HOME/git/dotfiles-linux/ --work-tree=$$HOME clone --bare git@github.com:DerDomee/dotfiles-linux.git ~/git/dotfiles-linux
+	git --git-dir=$$HOME/git/dotfiles-linux/ --work-tree=$$HOME clone --bare https://github.com/derdomee/dotfiles-linux.git ~/git/dotfiles-linux
 	git --git-dir=$$HOME/git/dotfiles-linux/ --work-tree=$$HOME reset --hard
 
 install: 
